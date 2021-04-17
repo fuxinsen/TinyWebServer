@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "epoll.h": "c",
+        "*.tcc": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

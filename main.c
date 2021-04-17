@@ -105,8 +105,8 @@ int main(int argc, char *argv[])
 
     //创建数据库连接池
     connection_pool *connPool = connection_pool::GetInstance();
-    connPool->init("localhost", "root", "root", "qgydb", 3306, 8);
-
+    // connPool->init("172.24.10.12", "root", "xiaofu1412.", "mydb", 3306, 8);
+    connPool->init("localhost", "root", "xiaofu1412.", "mydb", 3306, 8);
     //创建线程池
     threadpool<http_conn> *pool = NULL;
     try
@@ -135,7 +135,8 @@ int main(int argc, char *argv[])
     struct sockaddr_in address;
     bzero(&address, sizeof(address));
     address.sin_family = AF_INET;
-    address.sin_addr.s_addr = htonl(INADDR_ANY);
+    // address.sin_addr.s_addr = htonl(INADDR_ANY);
+    inet_pton( AF_INET, "172.24.10.12", &address.sin_addr.s_addr);
     address.sin_port = htons(port);
 
     int flag = 1;
