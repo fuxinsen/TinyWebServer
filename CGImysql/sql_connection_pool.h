@@ -20,7 +20,7 @@ public:
 	int GetFreeConn();					 //获取连接
 	void DestroyPool();					 //销毁所有连接
 
-	//单例模式
+	// 单例模式：保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 	static connection_pool *GetInstance();
 
 	void init(string url, string User, string PassWord, string DataBaseName, int Port, unsigned int MaxConn); 
@@ -34,9 +34,9 @@ private:
 	unsigned int FreeConn; //当前空闲的连接数
 
 private:
-	locker lock;
-	list<MYSQL *> connList; //连接池
-	sem reserve;
+	locker lock;			//互斥量
+	list<MYSQL *> connList; //连接池链表 结点是每个连接
+	sem reserve;			//信号量
 
 private:
 	string url;			 //主机地址
@@ -46,6 +46,7 @@ private:
 	string DatabaseName; //使用数据库名
 };
 
+//RAII：资源获取即初始化；防止资源泄漏。
 class connectionRAII{
 
 public:
@@ -53,7 +54,7 @@ public:
 	~connectionRAII();
 	
 private:
-	MYSQL *conRAII;
+	MYSQL *conRAII;	//MYSQL是包含某数据库【一个连接】所有信息的结构体
 	connection_pool *poolRAII;
 };
 

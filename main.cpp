@@ -9,19 +9,19 @@
 #include <cassert>
 #include <sys/epoll.h>
 
-#include "./lock/locker.h"
-#include "./threadpool/threadpool.h"
-#include "./timer/lst_timer.h"
-#include "./http/http_conn.h"
-#include "./log/log.h"
-#include "./CGImysql/sql_connection_pool.h"
+#include "./lock/locker.h"              //锁、信号量的接口封装
+#include "./threadpool/threadpool.h"    //线程池类声明与实现
+#include "./timer/lst_timer.h"          //定时器声明与实现
+#include "./http/http_conn.h"           
+#include "./log/log.h"                  
+#include "./CGImysql/sql_connection_pool.h" //连接池类的声明
 
 #define MAX_FD 65536           //最大文件描述符
 #define MAX_EVENT_NUMBER 10000 //最大事件数
 #define TIMESLOT 5             //最小超时单位
 
-#define SYNLOG  //同步写日志
-//#define ASYNLOG //异步写日志
+#define SYNLOG      //同步写日志
+//#define ASYNLOG   //异步写日志
 
 //#define listenfdET //边缘触发非阻塞
 #define listenfdLT //水平触发阻塞
@@ -33,7 +33,7 @@ extern int setnonblocking(int fd);
 
 //设置定时器相关参数
 static int pipefd[2];
-static sort_timer_lst timer_lst;
+static sort_timer_lst timer_lst; //定义定时器链表
 static int epollfd = 0;
 
 //信号处理函数
@@ -50,7 +50,7 @@ void sig_handler(int sig)
 void addsig(int sig, void(handler)(int), bool restart = true)
 {
     struct sigaction sa;
-    memset(&sa, '\0', sizeof(sa));
+    memset(&sa, '\0', sizeof(sa));//初始化
     sa.sa_handler = handler;
     if (restart)
         sa.sa_flags |= SA_RESTART;
@@ -62,10 +62,10 @@ void addsig(int sig, void(handler)(int), bool restart = true)
 void timer_handler()
 {
     timer_lst.tick();
-    alarm(TIMESLOT);
+    alarm(TIMESLOT);//重新定时5秒
 }
 
-//定时器回调函数，删除非活动连接在socket上的注册事件，并关闭
+//定时器回调函数，删除非活动连接在socket上的【注册事件】，并关闭
 void cb_func(client_data *user_data)
 {
     epoll_ctl(epollfd, EPOLL_CTL_DEL, user_data->sockfd, 0);
@@ -111,9 +111,9 @@ int main(int argc, char *argv[])
     threadpool<http_conn> *pool = NULL;
     try
     {
-        pool = new threadpool<http_conn>(connPool);
+        pool = new threadpool<http_conn>(connPool);//保护代码
     }
-    catch (...)
+    catch (...)//处理所有异常：直接返回1 退出main函数
     {
         return 1;
     }
@@ -140,7 +140,7 @@ int main(int argc, char *argv[])
     address.sin_port = htons(port);
 
     int flag = 1;
-    setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, sizeof(flag));
+    setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &flag, sizeof(flag));//允许复用地址
     ret = bind(listenfd, (struct sockaddr *)&address, sizeof(address));
     assert(ret >= 0);
     ret = listen(listenfd, 5);

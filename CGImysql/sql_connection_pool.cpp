@@ -10,19 +10,21 @@
 
 using namespace std;
 
+//sql连接池构造函数
 connection_pool::connection_pool()
 {
 	this->CurConn = 0;
 	this->FreeConn = 0;
 }
 
+//获取一个sql连接池实例对象
 connection_pool *connection_pool::GetInstance()
 {
 	static connection_pool connPool;
 	return &connPool;
 }
 
-//构造初始化
+//连接池构造 并初始化
 void connection_pool::init(string url, string User, string PassWord, string DBName, int Port, unsigned int MaxConn)
 {
 	this->url = url;
