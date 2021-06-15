@@ -105,7 +105,6 @@ int main(int argc, char *argv[])
 
     //创建数据库连接池
     connection_pool *connPool = connection_pool::GetInstance();
-    // connPool->init("172.24.10.12", "root", "xiaofu1412.", "mydb", 3306, 8);
     connPool->init("localhost", "root", "xiaofu1412.", "mydb", 3306, 8);
     //创建线程池
     threadpool<http_conn> *pool = NULL;

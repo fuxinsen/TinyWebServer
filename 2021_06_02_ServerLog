@@ -1,0 +1,813 @@
+2021-06-02 22:09:11.855261 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:11.855382 [info]: adjust timer once
+2021-06-02 22:09:11.856310 [info]: GET / HTTP/1.1
+2021-06-02 22:09:11.856386 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:11.856393 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:11.856398 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:11.856402 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:11.856407 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:11.856412 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:11.856417 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:11.856422 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:11.856426 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:11.856430 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:11.856434 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:11.856438 [info]: Connection: keep-alive
+2021-06-02 22:09:11.856442 [info]: 
+2021-06-02 22:09:11.856481 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:11.856488 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+
+2021-06-02 22:09:11.856496 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+Connection:keep-alive
+
+2021-06-02 22:09:11.856502 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+Connection:keep-alive
+
+
+2021-06-02 22:09:11.857312 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:11.857332 [info]: adjust timer once
+2021-06-02 22:09:11.971903 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:11.971994 [info]: adjust timer once
+2021-06-02 22:09:11.972697 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:11.972773 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:11.972783 [info]: Connection: keep-alive
+2021-06-02 22:09:11.972789 [info]: Accept: */*
+2021-06-02 22:09:11.972796 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:11.972803 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:11.972810 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:11.972816 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:11.972823 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:11.972829 [info]: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:11.972835 [info]: oop!unknow header: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:11.972842 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:11.972848 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:11.972854 [info]: 
+2021-06-02 22:09:12.066981 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:12.067107 [info]: adjust timer once
+2021-06-02 22:09:12.067125 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:12.067168 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:12.067176 [info]: Connection: keep-alive
+2021-06-02 22:09:12.067182 [info]: Accept: */*
+2021-06-02 22:09:12.067189 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:12.067197 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:12.067205 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:12.067212 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:12.067218 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:12.067225 [info]: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:12.067244 [info]: oop!unknow header: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:12.067251 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:12.067257 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:12.067263 [info]: 
+2021-06-02 22:09:12.155373 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:12.155457 [info]: adjust timer once
+2021-06-02 22:09:12.155478 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:12.155539 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:12.155547 [info]: Connection: keep-alive
+2021-06-02 22:09:12.155553 [info]: Accept: */*
+2021-06-02 22:09:12.155559 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:12.155566 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:12.155575 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:12.155582 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:12.155588 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:12.155594 [info]: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:12.155600 [info]: oop!unknow header: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:12.155606 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:12.155611 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:12.155616 [info]: 
+2021-06-02 22:09:16.179931 [info]: deal with the client(154.3.5.250)
+2021-06-02 22:09:16.179994 [info]: adjust timer once
+2021-06-02 22:09:16.180534 [info]: GET / HTTP/1.1
+2021-06-02 22:09:16.180582 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:16.180588 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:16.180593 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:16.180597 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:16.180602 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:16.180607 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:16.180612 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:16.180616 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:16.180620 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:16.180625 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:16.180629 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:16.180633 [info]: Connection: close
+2021-06-02 22:09:16.180637 [info]: 
+2021-06-02 22:09:16.180658 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:16.180665 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+
+2021-06-02 22:09:16.180670 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+Connection:close
+
+2021-06-02 22:09:16.180675 [info]: request:HTTP/1.1 200 OK
+Content-Length:597
+Connection:close
+
+
+2021-06-02 22:09:16.180769 [info]: close fd 20
+2021-06-02 22:09:16.553588 [info]: timer tick
+2021-06-02 22:09:17.456914 [info]: deal with the client(154.3.5.250)
+2021-06-02 22:09:17.457000 [info]: adjust timer once
+2021-06-02 22:09:17.457020 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:17.457073 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:17.457080 [info]: Connection: close
+2021-06-02 22:09:17.457086 [info]: Accept: */*
+2021-06-02 22:09:17.457092 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:17.457100 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:17.457107 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:17.457123 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:17.457127 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:17.457132 [info]: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:17.457136 [info]: oop!unknow header: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:17.457140 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:17.457144 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:17.457147 [info]: 
+2021-06-02 22:09:18.398208 [info]: close fd 16
+2021-06-02 22:09:18.403101 [info]: close fd 17
+2021-06-02 22:09:18.405515 [info]: close fd 18
+2021-06-02 22:09:18.459467 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:18.459557 [info]: adjust timer once
+2021-06-02 22:09:18.459578 [info]: POST /0 HTTP/1.1
+2021-06-02 22:09:18.459620 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:18.459627 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:09:18.459633 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:09:18.459638 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:18.459643 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:18.459647 [info]: Content-Length: 0
+2021-06-02 22:09:18.459658 [info]: Connection: keep-alive
+2021-06-02 22:09:18.459663 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:18.459674 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:18.459678 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:18.459683 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:18.459688 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.459693 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.459699 [info]: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:18.459703 [info]: oop!unknow header: Referer: http://8.131.51.140:66/
+2021-06-02 22:09:18.459707 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:18.459711 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:18.459715 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.459719 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.459724 [info]: 
+2021-06-02 22:09:18.459764 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:18.459770 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+
+2021-06-02 22:09:18.459774 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+2021-06-02 22:09:18.459778 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+
+2021-06-02 22:09:18.460614 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:18.460639 [info]: adjust timer once
+2021-06-02 22:09:18.598152 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:18.598208 [info]: adjust timer once
+2021-06-02 22:09:18.598225 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:18.598265 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:18.598270 [info]: Connection: keep-alive
+2021-06-02 22:09:18.598274 [info]: Accept: */*
+2021-06-02 22:09:18.598278 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:18.598283 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.598291 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.598298 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:18.598305 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:18.598312 [info]: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.598327 [info]: oop!unknow header: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.598332 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.598336 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.598340 [info]: 
+2021-06-02 22:09:18.703506 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:18.703601 [info]: adjust timer once
+2021-06-02 22:09:18.703621 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:18.703633 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:18.703640 [info]: Connection: keep-alive
+2021-06-02 22:09:18.703646 [info]: Accept: */*
+2021-06-02 22:09:18.703652 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:18.703659 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.703668 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.703673 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:18.703677 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:18.703681 [info]: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.703686 [info]: oop!unknow header: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.703690 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.703694 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.703697 [info]: 
+2021-06-02 22:09:18.813799 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:18.813871 [info]: adjust timer once
+2021-06-02 22:09:18.813887 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:18.813900 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:18.813907 [info]: Connection: keep-alive
+2021-06-02 22:09:18.813912 [info]: Accept: */*
+2021-06-02 22:09:18.813919 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:18.813927 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.813934 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:18.813939 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:18.813944 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:18.813948 [info]: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.813952 [info]: oop!unknow header: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:18.813956 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.813960 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:18.813964 [info]: 
+2021-06-02 22:09:19.944422 [info]: close fd 16
+2021-06-02 22:09:21.553738 [info]: timer tick
+2021-06-02 22:09:26.553885 [info]: timer tick
+2021-06-02 22:09:26.554758 [info]: close fd 20
+2021-06-02 22:09:31.554833 [info]: timer tick
+2021-06-02 22:09:31.554912 [info]: close fd 20
+2021-06-02 22:09:31.554919 [info]: close fd 20
+2021-06-02 22:09:36.328599 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:36.328679 [info]: adjust timer once
+2021-06-02 22:09:36.329132 [info]: POST /3CGISQL.cgi HTTP/1.1
+2021-06-02 22:09:36.329152 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:36.329158 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:09:36.329163 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:09:36.329167 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:36.329171 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:36.329176 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.329180 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.329184 [info]: Connection: keep-alive
+2021-06-02 22:09:36.329189 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:36.329193 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:36.329208 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:36.329213 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:36.329218 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.329223 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.329235 [info]: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:36.329239 [info]: oop!unknow header: Referer: http://8.131.51.140:66/0
+2021-06-02 22:09:36.329246 [info]: Content-Length: 26
+2021-06-02 22:09:36.329251 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:36.329255 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:36.329259 [info]: 
+2021-06-02 22:09:36.329264 [info]: user=xieyu&password=123456
+2021-06-02 22:09:36.338578 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:36.338618 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2021-06-02 22:09:36.338624 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2021-06-02 22:09:36.338629 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2021-06-02 22:09:36.339086 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:36.339110 [info]: adjust timer once
+2021-06-02 22:09:36.471029 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:36.471113 [info]: adjust timer once
+2021-06-02 22:09:36.471129 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:36.471138 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:36.471143 [info]: Connection: keep-alive
+2021-06-02 22:09:36.471148 [info]: Accept: */*
+2021-06-02 22:09:36.471153 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:36.471158 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.471164 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.471169 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:36.471174 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:36.471179 [info]: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.471183 [info]: oop!unknow header: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.471187 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.471191 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.471195 [info]: 
+2021-06-02 22:09:36.554980 [info]: timer tick
+2021-06-02 22:09:36.555052 [info]: close fd 20
+2021-06-02 22:09:36.555059 [info]: close fd 17
+2021-06-02 22:09:36.555064 [info]: close fd 17
+2021-06-02 22:09:36.555069 [info]: close fd 17
+2021-06-02 22:09:36.573901 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:36.573976 [info]: adjust timer once
+2021-06-02 22:09:36.573994 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:36.574008 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:36.574014 [info]: Connection: keep-alive
+2021-06-02 22:09:36.574020 [info]: Accept: */*
+2021-06-02 22:09:36.574026 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:36.574032 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.574040 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.574047 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:36.574053 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:36.574059 [info]: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.574080 [info]: oop!unknow header: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.574085 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.574089 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.574093 [info]: 
+2021-06-02 22:09:36.672954 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:36.673026 [info]: adjust timer once
+2021-06-02 22:09:36.673042 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:36.673051 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:36.673056 [info]: Connection: keep-alive
+2021-06-02 22:09:36.673060 [info]: Accept: */*
+2021-06-02 22:09:36.673065 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:36.673071 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.673077 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:36.673082 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:36.673086 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:36.673090 [info]: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.673094 [info]: oop!unknow header: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:36.673098 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.673102 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:36.673106 [info]: 
+2021-06-02 22:09:38.504879 [info]: close fd 16
+2021-06-02 22:09:41.555157 [info]: timer tick
+2021-06-02 22:09:46.354867 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:46.354955 [info]: adjust timer once
+2021-06-02 22:09:46.355457 [info]: POST /2CGISQL.cgi HTTP/1.1
+2021-06-02 22:09:46.355484 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:46.355490 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:09:46.355494 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:09:46.355499 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:46.355503 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:46.355521 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.355525 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.355530 [info]: Connection: keep-alive
+2021-06-02 22:09:46.355535 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:46.355539 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:46.355543 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:46.355547 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:46.355553 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.355559 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.355564 [info]: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:46.355568 [info]: oop!unknow header: Referer: http://8.131.51.140:66/3CGISQL.cgi
+2021-06-02 22:09:46.355573 [info]: Content-Length: 26
+2021-06-02 22:09:46.355578 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:46.355582 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:46.355586 [info]: 
+2021-06-02 22:09:46.355591 [info]: 
+2021-06-02 22:09:46.355661 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:46.355670 [info]: adjust timer once
+2021-06-02 22:09:46.355679 [info]: user=xieyu&password=123456
+2021-06-02 22:09:46.355724 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:46.355730 [info]: request:HTTP/1.1 200 OK
+Content-Length:707
+
+2021-06-02 22:09:46.355734 [info]: request:HTTP/1.1 200 OK
+Content-Length:707
+Connection:keep-alive
+
+2021-06-02 22:09:46.355749 [info]: request:HTTP/1.1 200 OK
+Content-Length:707
+Connection:keep-alive
+
+
+2021-06-02 22:09:46.356443 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:46.356459 [info]: adjust timer once
+2021-06-02 22:09:46.482904 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:46.482977 [info]: adjust timer once
+2021-06-02 22:09:46.482995 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:46.483009 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:46.483016 [info]: Connection: keep-alive
+2021-06-02 22:09:46.483023 [info]: Accept: */*
+2021-06-02 22:09:46.483029 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:46.483035 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.483044 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.483050 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:46.483057 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:46.483064 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.483070 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.483076 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.483082 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.483088 [info]: 
+2021-06-02 22:09:46.555296 [info]: timer tick
+2021-06-02 22:09:46.599381 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:46.599530 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:46.599545 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:46.599552 [info]: Connection: keep-alive
+2021-06-02 22:09:46.599557 [info]: Accept: */*
+2021-06-02 22:09:46.599563 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:46.599569 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.599577 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.599584 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:46.599589 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:46.599596 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.599602 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.599607 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.599613 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.599618 [info]: 
+2021-06-02 22:09:46.599465 [info]: adjust timer once
+2021-06-02 22:09:46.713603 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:46.713684 [info]: adjust timer once
+2021-06-02 22:09:46.713700 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:46.713708 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:46.713714 [info]: Connection: keep-alive
+2021-06-02 22:09:46.713718 [info]: Accept: */*
+2021-06-02 22:09:46.713722 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:46.713727 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.713733 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:46.713738 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:46.713743 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:46.713747 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.713751 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:46.713755 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.713773 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:46.713778 [info]: 
+2021-06-02 22:09:48.467963 [info]: close fd 16
+2021-06-02 22:09:51.555452 [info]: timer tick
+2021-06-02 22:09:51.555548 [info]: close fd 17
+2021-06-02 22:09:51.555555 [info]: close fd 17
+2021-06-02 22:09:51.555560 [info]: close fd 17
+2021-06-02 22:09:52.942541 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:52.942627 [info]: adjust timer once
+2021-06-02 22:09:52.943267 [info]: POST /5 HTTP/1.1
+2021-06-02 22:09:52.943307 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:52.943314 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:09:52.943320 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:09:52.943327 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:52.943333 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:52.943339 [info]: Content-Length: 0
+2021-06-02 22:09:52.943346 [info]: Connection: keep-alive
+2021-06-02 22:09:52.943352 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:52.943357 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:52.943364 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:52.943371 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:52.943381 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:52.943387 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:52.943394 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:52.943400 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:52.943406 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:52.943411 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:52.943417 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:52.943432 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:52.943439 [info]: 
+2021-06-02 22:09:52.943486 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:52.943499 [info]: request:HTTP/1.1 200 OK
+Content-Length:349
+
+2021-06-02 22:09:52.943517 [info]: request:HTTP/1.1 200 OK
+Content-Length:349
+Connection:keep-alive
+
+2021-06-02 22:09:52.943524 [info]: request:HTTP/1.1 200 OK
+Content-Length:349
+Connection:keep-alive
+
+
+2021-06-02 22:09:52.944369 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:52.944393 [info]: adjust timer once
+2021-06-02 22:09:53.010420 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:53.010521 [info]: adjust timer once
+2021-06-02 22:09:53.010538 [info]: GET /dianguozi.gif HTTP/1.1
+2021-06-02 22:09:53.010549 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:53.010553 [info]: Connection: keep-alive
+2021-06-02 22:09:53.010558 [info]: Accept: image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+2021-06-02 22:09:53.010563 [info]: oop!unknow header: Accept: image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+2021-06-02 22:09:53.010569 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:53.010574 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:53.010579 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:53.010583 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:53.010587 [info]: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:53.010591 [info]: oop!unknow header: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:53.010595 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:53.010612 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:53.010617 [info]: 
+2021-06-02 22:09:53.010647 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:53.010652 [info]: request:HTTP/1.1 200 OK
+Content-Length:1866629
+
+2021-06-02 22:09:53.010657 [info]: request:HTTP/1.1 200 OK
+Content-Length:1866629
+Connection:keep-alive
+
+2021-06-02 22:09:53.010661 [info]: request:HTTP/1.1 200 OK
+Content-Length:1866629
+Connection:keep-alive
+
+
+2021-06-02 22:09:53.012121 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.012157 [info]: adjust timer once
+2021-06-02 22:09:53.126824 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.126891 [info]: adjust timer once
+2021-06-02 22:09:53.204790 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.204865 [info]: adjust timer once
+2021-06-02 22:09:53.219869 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.219937 [info]: adjust timer once
+2021-06-02 22:09:53.259784 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.259850 [info]: adjust timer once
+2021-06-02 22:09:53.277390 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.277466 [info]: adjust timer once
+2021-06-02 22:09:53.306673 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:53.306746 [info]: adjust timer once
+2021-06-02 22:09:54.869498 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:54.869595 [info]: adjust timer once
+2021-06-02 22:09:54.870075 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:54.870104 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:54.870112 [info]: Connection: keep-alive
+2021-06-02 22:09:54.870118 [info]: Accept: */*
+2021-06-02 22:09:54.870126 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:54.870133 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:54.870142 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:54.870150 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:54.870157 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:54.870163 [info]: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:54.870171 [info]: oop!unknow header: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:54.870177 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:54.870183 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:54.870189 [info]: 
+2021-06-02 22:09:54.959974 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:54.960055 [info]: adjust timer once
+2021-06-02 22:09:54.960072 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:54.960085 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:54.960092 [info]: Connection: keep-alive
+2021-06-02 22:09:54.960099 [info]: Accept: */*
+2021-06-02 22:09:54.960105 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:54.960112 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:54.960121 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:54.960128 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:54.960133 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:54.960139 [info]: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:54.960145 [info]: oop!unknow header: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:54.960151 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:54.960156 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:54.960163 [info]: 
+2021-06-02 22:09:55.057052 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:55.057139 [info]: adjust timer once
+2021-06-02 22:09:55.057175 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:09:55.057201 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:55.057208 [info]: Connection: keep-alive
+2021-06-02 22:09:55.057214 [info]: Accept: */*
+2021-06-02 22:09:55.057221 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:55.057228 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:55.057236 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:55.057243 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:55.057250 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:55.057256 [info]: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:55.057262 [info]: oop!unknow header: Referer: http://8.131.51.140:66/5
+2021-06-02 22:09:55.057268 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:55.057273 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:55.057279 [info]: 
+2021-06-02 22:09:56.085559 [info]: close fd 16
+2021-06-02 22:09:56.555626 [info]: timer tick
+2021-06-02 22:09:59.752026 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:59.752116 [info]: adjust timer once
+2021-06-02 22:09:59.752630 [info]: POST /6 HTTP/1.1
+2021-06-02 22:09:59.752660 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:59.752669 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:09:59.752675 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:09:59.752682 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:59.752688 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:09:59.752695 [info]: Content-Length: 0
+2021-06-02 22:09:59.752701 [info]: Connection: keep-alive
+2021-06-02 22:09:59.752708 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:59.752725 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:09:59.752731 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:59.752738 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:09:59.752745 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:59.752750 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:59.752755 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:59.752759 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:09:59.752764 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:59.752768 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:59.752772 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:59.752776 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:09:59.752780 [info]: 
+2021-06-02 22:09:59.752812 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:59.752817 [info]: request:HTTP/1.1 200 OK
+Content-Length:384
+
+2021-06-02 22:09:59.752821 [info]: request:HTTP/1.1 200 OK
+Content-Length:384
+Connection:keep-alive
+
+2021-06-02 22:09:59.752826 [info]: request:HTTP/1.1 200 OK
+Content-Length:384
+Connection:keep-alive
+
+
+2021-06-02 22:09:59.753528 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:59.753547 [info]: adjust timer once
+2021-06-02 22:09:59.931106 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:09:59.931190 [info]: adjust timer once
+2021-06-02 22:09:59.931211 [info]: GET /TOP000.mp4 HTTP/1.1
+2021-06-02 22:09:59.931223 [info]: Host: 8.131.51.140:66
+2021-06-02 22:09:59.931228 [info]: Accept-Language: zh-cn
+2021-06-02 22:09:59.931232 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:09:59.931237 [info]: X-Playback-Session-Id: C9C1C3DE-BCFC-48A4-8C91-5E8EE2618880
+2021-06-02 22:09:59.931256 [info]: oop!unknow header: X-Playback-Session-Id: C9C1C3DE-BCFC-48A4-8C91-5E8EE2618880
+2021-06-02 22:09:59.931261 [info]: Range: bytes=0-1
+2021-06-02 22:09:59.931266 [info]: oop!unknow header: Range: bytes=0-1
+2021-06-02 22:09:59.931270 [info]: Accept: */*
+2021-06-02 22:09:59.931274 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:09:59.931279 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:59.931285 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:09:59.931299 [info]: Referer: http://8.131.51.140:66/6
+2021-06-02 22:09:59.931305 [info]: oop!unknow header: Referer: http://8.131.51.140:66/6
+2021-06-02 22:09:59.931311 [info]: Accept-Encoding: identity
+2021-06-02 22:09:59.931316 [info]: oop!unknow header: Accept-Encoding: identity
+2021-06-02 22:09:59.931322 [info]: Connection: Keep-Alive
+2021-06-02 22:09:59.931327 [info]: 
+2021-06-02 22:09:59.931368 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:09:59.931383 [info]: request:HTTP/1.1 200 OK
+Content-Length:3279785
+
+2021-06-02 22:09:59.931389 [info]: request:HTTP/1.1 200 OK
+Content-Length:3279785
+Connection:keep-alive
+
+2021-06-02 22:09:59.931393 [info]: request:HTTP/1.1 200 OK
+Content-Length:3279785
+Connection:keep-alive
+
+
+2021-06-02 22:09:59.932853 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:09:59.932884 [info]: adjust timer once
+2021-06-02 22:10:00.017922 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:10:00.018017 [info]: adjust timer once
+2021-06-02 22:10:00.025048 [info]: close fd 16
+2021-06-02 22:10:00.113972 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:00.114036 [info]: adjust timer once
+2021-06-02 22:10:00.114051 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:00.114060 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:00.114065 [info]: Connection: keep-alive
+2021-06-02 22:10:00.114069 [info]: Accept: */*
+2021-06-02 22:10:00.114074 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:00.114079 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.114085 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.114090 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:00.114094 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:00.114098 [info]: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.114102 [info]: oop!unknow header: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.114106 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.114110 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.114116 [info]: 
+2021-06-02 22:10:00.216408 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:00.216483 [info]: adjust timer once
+2021-06-02 22:10:00.216512 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:00.216525 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:00.216532 [info]: Connection: keep-alive
+2021-06-02 22:10:00.216539 [info]: Accept: */*
+2021-06-02 22:10:00.216546 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:00.216554 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.216562 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.216569 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:00.216576 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:00.216582 [info]: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.216605 [info]: oop!unknow header: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.216612 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.216617 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.216623 [info]: 
+2021-06-02 22:10:00.312866 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:00.312929 [info]: adjust timer once
+2021-06-02 22:10:00.312942 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:00.312951 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:00.312956 [info]: Connection: keep-alive
+2021-06-02 22:10:00.312961 [info]: Accept: */*
+2021-06-02 22:10:00.312965 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:00.312970 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.312976 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:00.312981 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:00.312985 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:00.312989 [info]: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.312993 [info]: oop!unknow header: Referer: http://8.131.51.140:66/6
+2021-06-02 22:10:00.312997 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.313001 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:00.313006 [info]: 
+2021-06-02 22:10:01.555789 [info]: timer tick
+2021-06-02 22:10:01.555881 [info]: close fd 17
+2021-06-02 22:10:01.555891 [info]: close fd 17
+2021-06-02 22:10:01.555897 [info]: close fd 17
+2021-06-02 22:10:02.878411 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:02.878490 [info]: adjust timer once
+2021-06-02 22:10:02.879087 [info]: POST /7 HTTP/1.1
+2021-06-02 22:10:02.879118 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:02.879124 [info]: Origin: http://8.131.51.140:66
+2021-06-02 22:10:02.879128 [info]: oop!unknow header: Origin: http://8.131.51.140:66
+2021-06-02 22:10:02.879133 [info]: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:10:02.879138 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2021-06-02 22:10:02.879142 [info]: Content-Length: 0
+2021-06-02 22:10:02.879146 [info]: Connection: keep-alive
+2021-06-02 22:10:02.879151 [info]: Upgrade-Insecure-Requests: 1
+2021-06-02 22:10:02.879155 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2021-06-02 22:10:02.879160 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:10:02.879165 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2021-06-02 22:10:02.879171 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:02.879175 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:02.879180 [info]: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:10:02.879184 [info]: oop!unknow header: Referer: http://8.131.51.140:66/2CGISQL.cgi
+2021-06-02 22:10:02.879188 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:02.879192 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:02.879196 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:02.879200 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:02.879204 [info]: 
+2021-06-02 22:10:02.879234 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:10:02.879243 [info]: request:HTTP/1.1 200 OK
+Content-Length:322
+
+2021-06-02 22:10:02.879247 [info]: request:HTTP/1.1 200 OK
+Content-Length:322
+Connection:keep-alive
+
+2021-06-02 22:10:02.879252 [info]: request:HTTP/1.1 200 OK
+Content-Length:322
+Connection:keep-alive
+
+
+2021-06-02 22:10:02.880130 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:10:02.880162 [info]: adjust timer once
+2021-06-02 22:10:02.941259 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:02.941336 [info]: adjust timer once
+2021-06-02 22:10:02.941354 [info]: GET /yuanpi.jpg HTTP/1.1
+2021-06-02 22:10:02.941364 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:02.941369 [info]: Connection: keep-alive
+2021-06-02 22:10:02.941374 [info]: Accept: image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+2021-06-02 22:10:02.941379 [info]: oop!unknow header: Accept: image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+2021-06-02 22:10:02.941386 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:02.941391 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:02.941396 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:02.941400 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:02.941404 [info]: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:02.941408 [info]: oop!unknow header: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:02.941412 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:02.941416 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:02.941420 [info]: 
+2021-06-02 22:10:02.941450 [info]: request:HTTP/1.1 200 OK
+
+2021-06-02 22:10:02.941455 [info]: request:HTTP/1.1 200 OK
+Content-Length:59599
+
+2021-06-02 22:10:02.941459 [info]: request:HTTP/1.1 200 OK
+Content-Length:59599
+Connection:keep-alive
+
+2021-06-02 22:10:02.941463 [info]: request:HTTP/1.1 200 OK
+Content-Length:59599
+Connection:keep-alive
+
+
+2021-06-02 22:10:02.943830 [info]: send data to the client(61.242.130.193)
+2021-06-02 22:10:02.943876 [info]: adjust timer once
+2021-06-02 22:10:03.129177 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:03.129271 [info]: adjust timer once
+2021-06-02 22:10:03.130171 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:03.130207 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:03.130215 [info]: Connection: keep-alive
+2021-06-02 22:10:03.130222 [info]: Accept: */*
+2021-06-02 22:10:03.130229 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:03.130236 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.130244 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.130252 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:03.130259 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:03.130266 [info]: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.130273 [info]: oop!unknow header: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.130280 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.130286 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.130293 [info]: 
+2021-06-02 22:10:03.227813 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:03.227902 [info]: adjust timer once
+2021-06-02 22:10:03.227920 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:03.227929 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:03.227934 [info]: Connection: keep-alive
+2021-06-02 22:10:03.227938 [info]: Accept: */*
+2021-06-02 22:10:03.227944 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:03.227948 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.227955 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.227980 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:03.227985 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:03.227989 [info]: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.227993 [info]: oop!unknow header: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.227997 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.228001 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.228006 [info]: 
+2021-06-02 22:10:03.327283 [info]: deal with the client(61.242.130.193)
+2021-06-02 22:10:03.327363 [info]: adjust timer once
+2021-06-02 22:10:03.327380 [info]: GET /favicon.ico HTTP/1.1
+2021-06-02 22:10:03.327389 [info]: Host: 8.131.51.140:66
+2021-06-02 22:10:03.327394 [info]: Connection: keep-alive
+2021-06-02 22:10:03.327398 [info]: Accept: */*
+2021-06-02 22:10:03.327403 [info]: oop!unknow header: Accept: */*
+2021-06-02 22:10:03.327407 [info]: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.327415 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1
+2021-06-02 22:10:03.327419 [info]: Accept-Language: zh-cn
+2021-06-02 22:10:03.327424 [info]: oop!unknow header: Accept-Language: zh-cn
+2021-06-02 22:10:03.327429 [info]: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.327433 [info]: oop!unknow header: Referer: http://8.131.51.140:66/7
+2021-06-02 22:10:03.327437 [info]: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.327441 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2021-06-02 22:10:03.327445 [info]: 
+2021-06-02 22:10:05.033278 [info]: close fd 16
+2021-06-02 22:10:06.555983 [info]: timer tick
+2021-06-02 22:10:11.556143 [info]: timer tick
+2021-06-02 22:10:11.556236 [info]: close fd 17
+2021-06-02 22:10:11.556246 [info]: close fd 17
+2021-06-02 22:10:11.556253 [info]: close fd 17
+2021-06-02 22:10:16.556333 [info]: timer tick
+2021-06-02 22:10:16.556431 [info]: close fd 16
+2021-06-02 22:10:16.556445 [info]: close fd 16
+2021-06-02 22:10:16.556453 [info]: close fd 16
+2021-06-02 22:10:21.556573 [info]: timer tick
+2021-06-02 22:10:21.556661 [info]: close fd 17
+2021-06-02 22:10:21.556672 [info]: close fd 17
+2021-06-02 22:10:21.556680 [info]: close fd 17
