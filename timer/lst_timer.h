@@ -5,26 +5,30 @@
 #include "../log/log.h"
 
 class util_timer;
+
+//客户数据结构：地址 描述符 定时器结点
 struct client_data
 {
     sockaddr_in address;
     int sockfd;
     util_timer *timer;
 };
-//基于升序双向链表的定时器
+
+
+//基于升序双向链表的定时器结点数据结构：相当于ListNode 一个节点
 class util_timer
 {
 public:
-    util_timer() : prev(NULL), next(NULL) {}
-
+    util_timer() : prev(NULL), next(NULL) {} //定时器链表构造函数
 public:
-    time_t expire;//到期时刻
-    void (*cb_func)(client_data *);//定时器回调函数
+    time_t expire; //到期时刻
+    void (*cb_func)(client_data *); //回调函数：cb_func是一个指针，指向一个函数，这个函数的类型是：参数为client_data指针，无返回值
     client_data *user_data;
     util_timer *prev;
     util_timer *next;
 };
-//排序定时器链表
+
+//升序双向链表本身以及一些函数封装：相当于自定义的类以ListNode为基础数据进行操作 一些函数
 class sort_timer_lst
 {
 public:
@@ -136,7 +140,7 @@ public:
             {
                 break;
             }
-            tmp->cb_func(tmp->user_data);//到期时执行回调函数
+            tmp->cb_func(tmp->user_data); //到期时执行回调函数（在主函数中），因为信号处理程序必须要简短
             head = tmp->next;
             if (head)
             {
@@ -176,7 +180,7 @@ private:
     }
 
 private:
-    util_timer *head;
+    util_timer *head; //双向链表只需知道头尾指针
     util_timer *tail;
 };
 

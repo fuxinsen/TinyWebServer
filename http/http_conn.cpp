@@ -24,7 +24,7 @@ const char *error_500_form = "There was an unusual problem serving the request f
 //当浏览器出现连接重置时，可能是网站根目录出错或http响应格式出错或者访问的文件中内容完全为空
 const char *doc_root = "/root/test/TinyWebServer/root";
 
-//将表中的用户名和密码放入map
+//载入数据库表：将表中的用户名和密码放入map
 map<string, string> users;
 locker m_lock;
 
@@ -58,7 +58,7 @@ void http_conn::initmysql_result(connection_pool *connPool)
     }
 }
 
-//对文件描述符设置非阻塞
+//对文件描述符设置非阻塞：保证有关此fd的IO操作是非阻塞的
 int setnonblocking(int fd)
 {
     int old_option = fcntl(fd, F_GETFL);
@@ -67,7 +67,7 @@ int setnonblocking(int fd)
     return old_option;
 }
 
-//将内核事件表注册读事件，ET模式，选择开启EPOLLONESHOT
+//将内核事件表注册读事件，ET模式，选择开启EPOLLONESHOT（同一fd的注册事件只触发一次，防止多线程竞争一个fd）
 void addfd(int epollfd, int fd, bool one_shot)
 {
     epoll_event event;
@@ -95,7 +95,7 @@ void addfd(int epollfd, int fd, bool one_shot)
     setnonblocking(fd);
 }
 
-//从内核时间表删除描述符
+//从内核事件表删除描述符
 void removefd(int epollfd, int fd)
 {
     epoll_ctl(epollfd, EPOLL_CTL_DEL, fd, 0);
@@ -133,7 +133,7 @@ void http_conn::close_conn(bool real_close)
     }
 }
 
-//初始化连接,外部调用初始化套接字地址
+//初始化HTTO连接,包括addfd到事件表和初始化HTTP报文信息
 void http_conn::init(int sockfd, const sockaddr_in &addr)
 {
     m_sockfd = sockfd;
