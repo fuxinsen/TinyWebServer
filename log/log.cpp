@@ -154,10 +154,11 @@ void Log::write_log(int level, const char *format, ...)
     va_end(valst);
 }
 
+//强制刷新写入流缓冲区
 void Log::flush(void)
 {
     m_mutex.lock();
-    //强制刷新写入流缓冲区
+    
     fflush(m_fp);
     m_mutex.unlock();
 }

@@ -5,6 +5,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 
+//信号量封装：封装到类中，实现RAII机制
 class sem
 {
 public:
@@ -26,10 +27,14 @@ public:
     {
         sem_destroy(&m_sem);
     }
+
+    //相当于加锁，做一次自减操作，可共享的线程数-1
     bool wait()
     {
         return sem_wait(&m_sem) == 0;
     }
+
+    //相当于解锁，做一次自增操作，可共享的线程数+1
     bool post()
     {
         return sem_post(&m_sem) == 0;
@@ -38,6 +43,8 @@ public:
 private:
     sem_t m_sem;
 };
+
+//锁的封装
 class locker
 {
 public:
@@ -68,6 +75,8 @@ public:
 private:
     pthread_mutex_t m_mutex;
 };
+
+//条件变量的封装
 class cond
 {
 public:
@@ -83,6 +92,8 @@ public:
     {
         pthread_cond_destroy(&m_cond);
     }
+
+    //1阻塞等待条件变量满足 2解锁 3条件满足，函数返回时重新加锁
     bool wait(pthread_mutex_t *m_mutex)
     {
         int ret = 0;
@@ -99,10 +110,12 @@ public:
         //pthread_mutex_unlock(&m_mutex);
         return ret == 0;
     }
+    //唤醒阻塞在条件变量上的 (至少)一个线程
     bool signal()
     {
         return pthread_cond_signal(&m_cond) == 0;
     }
+    //唤醒阻塞在条件变量上的所有线程
     bool broadcast()
     {
         return pthread_cond_broadcast(&m_cond) == 0;

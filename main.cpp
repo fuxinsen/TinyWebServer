@@ -20,11 +20,11 @@
 #define MAX_EVENT_NUMBER 10000 //最大事件数
 #define TIMESLOT 5             //最小超时/定时单位
 
-#define SYNLOG      //同步写日志：直接写
-//#define ASYNLOG   //异步写日志：放入阻塞队列另开一个线程写
+// #define SYNLOG      //同步写日志：直接写
+#define ASYNLOG   //异步写日志：放入阻塞队列另开一个线程写
 
-//#define listenfdET //边缘触发非阻塞
-#define listenfdLT //水平触发阻塞
+#define listenfdET //边缘触发非阻塞
+// #define listenfdLT //水平触发阻塞
 
 //这三个函数在http_conn.cpp中定义，改变链接属性
 extern int addfd(int epollfd, int fd, bool one_shot);
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    http_conn *users = new http_conn[MAX_FD]; //http连接的数组
+    http_conn *users = new http_conn[MAX_FD]; //http连接 一个连接就是一个user
     assert(users);
 
     //初始化数据库读取表
@@ -218,7 +218,7 @@ int main(int argc, char *argv[])
 
 //使用ET监听
 #ifdef listenfdET
-                while (1) //ET使用while是防止多个lfd请求来到时只触发一次
+                while (1) //ET使用while是防止出现多个lfd请求来到时只触发一次的情况
                 {
                     int connfd = accept(listenfd, (struct sockaddr *)&client_address, &client_addrlength);
                     if (connfd < 0)
@@ -301,11 +301,11 @@ int main(int argc, char *argv[])
             else if (events[i].events & EPOLLIN)
             {
                 util_timer *timer = users_timer[sockfd].timer;
-                if (users[sockfd].read_once())
+                if (users[sockfd].read_once()) //这里已把内容读取到http连接的缓冲区里
                 {
                     LOG_INFO("deal with the client(%s)", inet_ntoa(users[sockfd].get_address()->sin_addr));
                     Log::get_instance()->flush();
-                    //若监测到读事件，将该事件放入请求队列
+                    //若监测到读事件，将该用户的连接放入请求队列待处理
                     pool->append(users + sockfd);
 
                     //若有数据传输，则将定时器往后延迟3个单位
@@ -332,7 +332,7 @@ int main(int argc, char *argv[])
             else if (events[i].events & EPOLLOUT)
             {
                 util_timer *timer = users_timer[sockfd].timer;
-                if (users[sockfd].write())
+                if (users[sockfd].write()) //可写表示缓冲区已准备好，直接发送
                 {
                     LOG_INFO("send data to the client(%s)", inet_ntoa(users[sockfd].get_address()->sin_addr));
                     Log::get_instance()->flush();

@@ -47,20 +47,20 @@ public:
     };
     enum HTTP_CODE
     {
-        NO_REQUEST,
-        GET_REQUEST,
-        BAD_REQUEST,
-        NO_RESOURCE,
-        FORBIDDEN_REQUEST,
-        FILE_REQUEST,
-        INTERNAL_ERROR,
-        CLOSED_CONNECTION
+        NO_REQUEST, //请求不完整，需要继续读取请求报文数据
+        GET_REQUEST,//获得了完整的HTTP请求
+        BAD_REQUEST,//HTTP请求报文有语法错误
+        NO_RESOURCE,//服务器没有资源
+        FORBIDDEN_REQUEST, //禁止访问
+        FILE_REQUEST,      //文件请求
+        INTERNAL_ERROR,    //服务器内部错误，该结果在主状态机逻辑switch的default下，一般不会触发
+        CLOSED_CONNECTION  //关闭连接
     };
     enum LINE_STATUS
     {
-        LINE_OK = 0,
-        LINE_BAD,
-        LINE_OPEN
+        LINE_OK = 0, //读取一行结束
+        LINE_BAD,    //语法错误
+        LINE_OPEN    //还未读取完一行
     };
 
 public:
@@ -123,7 +123,7 @@ private:
     bool m_linger;
     char *m_file_address;
     struct stat m_file_stat;
-    struct iovec m_iv[2];
+    struct iovec m_iv[2]; //iov_base指向一个缓冲区，这个缓冲区存放readv所接收的数据或writev将要发送的数据; iov_len指定长度
     int m_iv_count;
     int cgi;        //是否启用的POST
     char *m_string; //存储请求头数据
